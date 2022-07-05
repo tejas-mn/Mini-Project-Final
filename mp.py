@@ -79,12 +79,12 @@ def printPorts():
         
 
 if __name__ == "__main__":
-    
-
-    
+  
     text = Text(width = 59, height = 7 ,font="Consolas 11 bold  ", fg="green" , bg="black")
     text.insert(END , "\t\t     <<< WELCOME >>> \n")
+  
     printPorts()   
+    
     Label(text="Mini Project",font="Times 25 bold italic ", bg="whitesmoke" , fg="blue").place(x=150, y=30)
     Label(text="IR REMOTE PC CONTROL",font="Times 15 bold ", bg="whitesmoke").place(x=120, y=80)
 
